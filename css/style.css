@@ -1,0 +1,174 @@
+/*------------| UNIVERSAL STYLES |------------*/
+
+body {
+    background-color: #000000;
+    color: #FFF5EE;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+/*-----------------| HEADER |-----------------*/
+
+header {
+    align-items: center;
+    border-bottom: 1px solid #FFF5EE;
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+}
+
+/*------------------| NAV |-------------------*/
+
+header {
+    background-color: #000000;
+}
+
+header li {
+    display: inline-flex;
+}
+
+a {
+    color: #FFF5EE;
+}
+
+li, .logo {
+    padding: 0 10px;
+}
+
+/*------------------| MAIN |------------------*/
+
+main {
+    margin: 69px auto 0;
+    max-width: 1200px;
+}
+
+/*-----------------| SECTION |----------------*/
+section {
+    margin: 0 auto 75px;
+}
+
+.banner {
+    background-image: url(../img/img-mission-background.webp);
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    flex-shrink: 1;
+    height: 700px;
+    justify-content: space-around;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.banner-text {
+    background-color: #000000;
+}
+
+.banner h2 {
+    margin: 10px 0;
+}
+
+.grid {
+    max-width: 1000px;
+}
+
+.grid-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-image div {
+    margin: 15px 15px 8px;
+}
+
+.grid h2, h4 {
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+.grid img {
+    height: 200px;
+    object-fit: cover;
+    width: 300px;
+}
+
+.grid p {
+    font-weight: bold;
+    margin: 12px 0 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.locations {
+    background-image: url(../img/img-locations-background.webp);
+    background-position: 0 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    height: 600px;
+    margin-bottom: 0;
+    max-width: 1200px;
+    padding-top: 117px;
+    text-align: center;
+}
+
+.locations-title > h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.locations-title {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+}
+
+.locations-cards {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.locations-cards div {
+    background-color: #000000;
+    box-sizing: border-box;
+    margin: 15px 20px;
+    width: 300px;
+}
+
+.locations-cards p {
+    padding: 10px 0;
+}
+
+.contacts {
+    height: 200px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.contacts h2 {
+    margin-bottom: 40px;
+}
+
+/*-----------------| FOOTER |-----------------*/
+
+footer > p {
+    font-size: 20px;
+    margin: 0 20px 20px;
+}
+
+/*-------------| STYLESHEET END |-------------*/
